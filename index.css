@@ -1,0 +1,56 @@
+main{
+  font-family: 'Rubic', sans-serif;
+}
+
+.background-header {
+  background-image: url('/Users/felixmojado/Documents/Codecademy Projects/DasmotoArtsCrafts/resources/images/pattern.jpeg');
+  background-size: 4700px;
+}
+
+.background-header h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 105px;
+  text-align: center;
+  color: #FDFD96;
+}
+
+@media (max-width: 600px) {
+  .background-header h1 {
+    font-size: 60px; /* Smaller font size for small screens */
+  }
+}
+
+.brushes{
+  background-color: #50C878;
+  color: white;
+  font-size: xx-large;
+}
+
+.frames{
+  background-color: #CD5C5C;
+  color: white;
+  font-size: xx-large;
+}
+
+.paint{
+  background-color: #87CEEB;
+  color: white;
+  font-size: xx-large;
+}
+
+.highlight {
+  color: blue;
+  font-weight: bold;
+}
+
+footer{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87CEEB;
+}
+
+footer p{
+  color: white;
+}
