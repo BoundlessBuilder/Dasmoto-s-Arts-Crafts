@@ -3,7 +3,7 @@ main{
 }
 
 .background-header {
-  background-image: url('/Users/felixmojado/Documents/Codecademy Projects/DasmotoArtsCrafts/resources/images/pattern.jpeg');
+  background-image: url('pattern.jpeg');
   background-size: 4700px;
 }
 
